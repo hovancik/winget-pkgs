@@ -10,10 +10,10 @@ NestedInstallerFiles:
   PortableCommandAlias: code-insiders
 Installers:
 - Architecture: arm64
-  InstallerUrl: https://vscode.download.prss.microsoft.com/dbazure/download/insider/dac0c97d082bd3bf38fdb3251e955e25c7c992a0/vscode_cli_win32_arm64_cli.zip
-  InstallerSha256: F7E0779F4161F2A36BF026F42F94346264DF43689D435211D57D112E55447E63
+  InstallerUrl: https://vscode.download.prss.microsoft.com/dbazure/download/insider/09d353cc16a600ebc3150709e6dc122690949755/vscode_cli_win32_arm64_cli.zip
+  InstallerSha256: A2111DED3A57E1B2E8C1A0B18B0C76DD5350EBF8626F14FBB3B4319640AD6BF5
 - Architecture: x64
-  InstallerUrl: https://vscode.download.prss.microsoft.com/dbazure/download/insider/dac0c97d082bd3bf38fdb3251e955e25c7c992a0/vscode_cli_win32_x64_cli.zip
-  InstallerSha256: A69F8C9C77D244C38545EA8A7A1FDD5CE97A9B26175E23E188FA7F07C7E76DAB
+  InstallerUrl: https://vscode.download.prss.microsoft.com/dbazure/download/insider/09d353cc16a600ebc3150709e6dc122690949755/vscode_cli_win32_x64_cli.zip
+  InstallerSha256: 42947473D9A455407C3CECC055EF75F0252D9C5CAC79E4D998656F9731909F31
 ManifestType: installer
 ManifestVersion: 1.9.0
