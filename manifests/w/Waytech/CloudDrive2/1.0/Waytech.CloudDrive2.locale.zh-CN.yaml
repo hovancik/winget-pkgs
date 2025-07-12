@@ -28,13 +28,11 @@ Tags:
 - 文件
 - 服务器
 ReleaseNotes: |-
-  1. 当多个 115open 通过 CloudDrive 的云端账号同步多处使用时，改为由 CloudDrive 服务器统一刷新访问令牌，以彻底解决 115open 多处使用时各种可能的 token 失效的问题。同一个 CloudDrive 账号下的所有运行的 CloudDrive 请都升级到 0.8.17，否则可能会出现 115opentoken 失效的问题，当出现 token 失效问题时，请重新授权。注意：使用该功能意味着你同意新版的 CloudDrive 用户许可协议，新的用户许可协议授权 CloudDrive 可在必要时在云端加密存储和使用用户的刷新令牌和访问令牌，新的协议完整文本见： CloudDrive 隐私与使用条款
-  2. 迅雷云盘增加转存迅雷分享链接功能，使用该功能需要先确保 web 版本时 1.6.20.0，并且重新授权一次迅雷云盘
-  3. 修复个别情况下机器重启后多云盘备份的配置可能丢失的问题
-  4. 修复跨网盘复制或者移动不支持 0 字节文件复制移动的问题
-  5. 修复上传任务管理里总字节数和已完成数显示的是当前页统计数据而不是所有任务统计数据的问题
-  6. 其它 bug 修复和性能改进
-ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.8.17
+  1. 增加 WebDAV 服务管理功能，可以在系统设置界面打开/关闭 CloudDrive2 的 WebDAV 服务，允许/禁止以 CloudDrive 账号访问 WebDAV 以及 WebDAV 的根目录位置和是否只读，允许/禁止以匿名身份访问 WebDAV 服务以及匿名访问的根目录位置和是否只读。可以创建任意多个独立的 WebDAV 用户，每个用户都可以独立设置根目录位置和是否只读。注意：创建独立 WebDAV 用户是会员功能，月费、年费、终身和轻享终身会员可以使用，基础会员无此功能
+  2. 系统设置界面改版为多标签页界面，优化部分设置界面，上传下载限速可以选择 MB/s 或者 KB/s 为单位
+  3. 改进本地持久化数据库并发写入的性能，修复在极个别情况下目录缓存本地持久化数据库并发写入冲突的问题
+  4. 其它性能改进和界面调整
+ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.9.1
 PurchaseUrl: https://www.clouddrive2.com/pricing.html
 ManifestType: locale
 ManifestVersion: 1.10.0
